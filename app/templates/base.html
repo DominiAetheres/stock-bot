@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="{{ url_for('static', filename = '/images/favicon.ico') }}"
+    >
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename = 'styles.css') }}"
+    >
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script>
+      var isUserAuthenticated = {% if current_user.is_authenticated %} true {% else %} false {% endif %};
+    </script>
+  </head>
+  <body>
+    {% block popup %} {% endblock %}
+
+    <header class="navbar">
+      <nav class="nav-container" role="menubar">
+        <a href="/" class="logo">StockBot</a>
+        <input type="checkbox" id="check">
+        <ul class="menu">
+          <li role="menuitem" aria-label="Chat" class="active">
+            <div>
+              <a href="/">Home</a>
+            </div>
+          </li>
+          {% if current_user.is_authenticated %}
+          <li role="menuitem" aria-label="History" class="active">
+            <div>
+              <a href="/history">History</a>
+            </div>
+          </li>
+          {% endif %}
+          <li>
+            <div>
+              <a href="/help">Help</a>
+            </div>
+          </li>
+          {% if current_user.is_authenticated %}
+          <li role="menuitem" aria-label="Welcome" class="active">
+            <div>
+              <a href="/logout">Logout</a>
+            </div>
+          </li>
+          {% endif %}
+          {% if not current_user.is_authenticated %}
+          <li role="menuitem" aria-label="Login" class="active">
+            <div>
+              <a href="/login">Login</a>
+            </div>
+          </li>
+          <li role="menuitem" aria-label="Register" class="active">
+            <div>
+              <a href="/register">Register</a>
+            </div>
+          </li>
+          {% endif %}
+        </ul>
+        
+        <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+        <div class="toggle-container">
+          <input type="checkbox" id="toggle-switch" class="toggle-switch">
+          <label for="toggle-switch">Dark Mode</label>
+        </div>
+        <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+      </nav>
+    </header>
+    <div id="loading-overlay"></div>
+    {% block content %} {% endblock %}
+
+    <script src="{{ url_for('static', filename = 'script.js') }}"></script>
+  </body>
+</html>

@@ -1,0 +1,1513 @@
+*   commit 9eaef9c86f8d11d96663cf497a35b3ddfb146e28 (HEAD -> main, origin/main, origin/HEAD)
+|\  Merge: 154edde a6f86d1
+| | Author: Ethan <109021341+DominiAetheres@users.noreply.github.com>
+| | Date:   Sun May 21 17:58:27 2023 +0800
+| | 
+| |     Merge pull request #37 from 0xhvy/final-polish
+| |     
+| |     Final polish
+| | 
+| * commit a6f86d166617b3ec95444b687e9e321f8b0f1678
+| | Author: Ethan <109021341+DominiAetheres@users.noreply.github.com>
+| | Date:   Sun May 21 17:18:46 2023 +0800
+| | 
+| |     updated formatting
+| | 
+| * commit 0f0f936b1df5c0a8938439b5f4cfef2c33a926fb (origin/final-polish, final-polish)
+| | Author: DominiAetheres <ethandai888@gmail.com>
+| | Date:   Sun May 21 17:09:18 2023 +0800
+| | 
+| |     added contributors
+| | 
+| * commit 834a8d091e1b68d2e473eaf9aa7e8c632e2146dd
+| | Author: DominiAetheres <ethandai888@gmail.com>
+| | Date:   Sun May 21 16:45:32 2023 +0800
+| | 
+| |     updated readme
+| | 
+| * commit c13d45794bf81af8b1e84af16f7092154298f058
+| | Author: DominiAetheres <ethandai888@gmail.com>
+| | Date:   Sun May 21 16:17:33 2023 +0800
+| | 
+| |     updated query list in help
+| | 
+| * commit 7711bc5bc26e8cfe8ab9ec770ee3f40546424408
+| | Author: DominiAetheres <ethandai888@gmail.com>
+| | Date:   Sun May 21 15:43:49 2023 +0800
+| | 
+| |     added basic formatting for responses
+| | 
+| * commit f1869a0ced8b495d9a1442060d97a231fe3bdefa
+| | Author: DominiAetheres <ethandai888@gmail.com>
+| | Date:   Sun May 21 15:43:40 2023 +0800
+| | 
+| |     removed unused keywords
+| | 
+| * commit a20a6b90e43d76021735c5a75a985794e7e5e4f2
+| | Author: DominiAetheres <ethandai888@gmail.com>
+| | Date:   Sun May 21 15:43:29 2023 +0800
+| | 
+| |     commented out testing, added error catching
+| | 
+| * commit f448bbdbc6401f0df762e59a2078fcea236144be
+|/  Author: DominiAetheres <ethandai888@gmail.com>
+|   Date:   Sun May 21 15:43:07 2023 +0800
+|   
+|       updated help page to reflect possible calls
+|   
+*   commit 154eddef7d16b8c8f0dd4e91a3b5be0f61b4833e
+|\  Merge: 0efde5f b29b022
+| | Author: harvey <128307809+0xhvy@users.noreply.github.com>
+| | Date:   Fri May 19 14:27:28 2023 +0800
+| | 
+| |     Merge pull request #36 from 0xhvy/Validator
+| |     
+| |     Passed all Validator Tests
+| |   
+| *   commit b29b022e5932547af8720ae214c22afc31687a3a (origin/Validator)
+| |\  Merge: 2652360 0efde5f
+| |/  Author: harvey <128307809+0xhvy@users.noreply.github.com>
+|/|   Date:   Fri May 19 14:27:22 2023 +0800
+| |   
+| |       Merge branch 'main' into Validator
+| |   
+* |   commit 0efde5ff5468e2b3a8090ebb77daf7c0ad1e7577
+|\ \  Merge: b5e3ae2 97e56a0
+| | | Author: harvey <128307809+0xhvy@users.noreply.github.com>
+| | | Date:   Fri May 19 14:26:38 2023 +0800
+| | | 
+| | |     Merge pull request #35 from 0xhvy/main_copy_test
+| | |     
+| | |     minor fixes + selenium
+| | | 
+| * | commit 97e56a0a40547b6e3320b4b35cd237b6268f5593 (origin/main_copy_test)
+|/ /  Author: Kat3434 <22931707@student.uwa.edu.au>
+| |   Date:   Thu May 18 23:51:04 2023 +0800
+| |   
+| |       minor fixes + selenium
+| | 
+| * commit 2652360b55dd4e92c69db0f32ce25f1b38c4ffde
+|/  Author: joshjo0108 <joshjo0108@gmail.com>
+|   Date:   Thu May 18 23:59:49 2023 +0800
+|   
+|       Passed all Validator Tests
+| 
+* commit b5e3ae2f59ce875e532b7bd64715e08628c592f7
+| Author: 0xhvy <q45108713@gmail.com>
+| Date:   Thu May 18 19:42:42 2023 +0800
+| 
+|     Error in history.html fixed
+| 
+* commit 5a393a3bd9b459874f7ad4a4a5960c7dc9e9cc14
+| Author: 0xhvy <q45108713@gmail.com>
+| Date:   Thu May 18 19:41:55 2023 +0800
+| 
+|     No more bleeding eyes from flicker! + minor fixes.
+| 
+* commit 9047bbd10b89ce03496083d4d697cddaf6cd3e11
+| Author: harvey <128307809+0xhvy@users.noreply.github.com>
+| Date:   Thu May 18 18:46:31 2023 +0800
+| 
+|     History page inline with rest of site, added colours to messages.
+| 
+* commit 505d660a60569dacb60c26b3a92ced1f9d312e37
+| Author: 0xhvy <q45108713@gmail.com>
+| Date:   Thu May 18 13:56:34 2023 +0800
+| 
+|     Removed span tags from base.html
+| 
+* commit e8d001630fde80d396c34ba81bf6fdc0ab4685b3
+| Author: 0xhvy <q45108713@gmail.com>
+| Date:   Thu May 18 13:51:24 2023 +0800
+| 
+|     Removed junk css.
+| 
+* commit d307197ce379a3af58c5c663e1832c01fae3afb8
+| Author: 0xhvy <q45108713@gmail.com>
+| Date:   Thu May 18 13:48:23 2023 +0800
+| 
+|     Added navbar to every page to improve navigation from login / register.
+| 
+* commit 38cd9a944291d64e869978fc3a70e9aed213dbea
+| Author: 0xhvy <q45108713@gmail.com>
+| Date:   Thu May 18 13:38:11 2023 +0800
+| 
+|     New chat button fix. Now checks if user is authenticated properly!
+| 
+* commit 2e6b15754c9cb0311fbf086ee94d860849327d55
+| Author: joshjo0108 <86064292+joshjo0108@users.noreply.github.com>
+| Date:   Thu May 18 12:22:01 2023 +0800
+| 
+|     Update README.md
+|     
+|     Modified the code part on test cases
+| 
+* commit 628a1b6c3bc0c9d157077078ac229518c643e04d
+| Author: harvey <128307809+0xhvy@users.noreply.github.com>
+| Date:   Thu May 18 12:16:35 2023 +0800
+| 
+|     Updated help-container.
+| 
+* commit aa78ee3676e1432be9e6ecc76ecacf0d6881fcc8
+| Author: harvey <128307809+0xhvy@users.noreply.github.com>
+| Date:   Thu May 18 11:57:10 2023 +0800
+| 
+|     Changing div class name to match css
+| 
+* commit daef9e83f9489b10a75c32e8daf510d20bfe9bf2
+| Author: joshjo0108 <joshjo0108@gmail.com>
+| Date:   Thu May 18 11:52:51 2023 +0800
+| 
+|     fixed bug
+| 
+* commit 4a798eafed2bb24ffd22c66925e592a2397d503f
+| Author: joshjo0108 <joshjo0108@gmail.com>
+| Date:   Thu May 18 11:49:18 2023 +0800
+| 
+|     updated selenium requirements
+|   
+*   commit 2520661f3d891ed8e3641bb6faefe8e529efe35c
+|\  Merge: 3f33c01 4285510
+| | Author: harvey <128307809+0xhvy@users.noreply.github.com>
+| | Date:   Thu May 18 11:44:34 2023 +0800
+| | 
+| |     Merge pull request #30 from 0xhvy/test-cases
+| |   
+| *   commit 4285510c4582a1c726b57a9d3f5b3c1f8ed619d3 (origin/test-cases)
+| |\  Merge: 007e0d1 3f33c01
+| |/  Author: harvey <128307809+0xhvy@users.noreply.github.com>
+|/|   Date:   Thu May 18 11:42:39 2023 +0800
+| |   
+| |       Merge branch 'main' into test-cases
+| | 
+* | commit 3f33c014408f121db27f5f4c471c4fb7a3783c49
+| | Author: DominiAetheres <ethandai888@gmail.com>
+| | Date:   Thu May 18 11:06:57 2023 +0800
+| | 
+| |     Makes sent in history grey
+| |   
+* |   commit ac47b8d56fc3a03f740d1aadf1482f7cb2699a6f
+|\ \  Merge: ba69cef 0b1e913
+| | | Author: DominiAetheres <ethandai888@gmail.com>
+| | | Date:   Thu May 18 10:49:34 2023 +0800
+| | | 
+| | |     Merge branch 'main' of https://github.com/0xhvy/groupProject3403
+| | |   
+| * |   commit 0b1e913adfc42d3d902336da1c89465e0bea681b
+| |\ \  Merge: b8a03d1 3802d92
+| | | | Author: Ethan <109021341+DominiAetheres@users.noreply.github.com>
+| | | | Date:   Thu May 18 10:47:35 2023 +0800
+| | | | 
+| | | |     Merge pull request #34 from 0xhvy/load-history
+| | | |     
+| | | |     Loads messages into history
+| | | | 
+| | * | commit 3802d924476c869e65357085ee286ea1b2fbcb33 (origin/load-history)
+| | | | Author: DominiAetheres <ethandai888@gmail.com>
+| | | | Date:   Thu May 18 10:44:52 2023 +0800
+| | | | 
+| | | |     Completed history loading
+| | | |   
+* | | |   commit ba69cef65a0803f7ca8d3c5a45591c6f62cbf61d
+|\ \ \ \  Merge: b8a03d1 fbad4e5
+| |/ / /  Author: DominiAetheres <ethandai888@gmail.com>
+|/| / /   Date:   Thu May 18 10:16:20 2023 +0800
+| |/ /    
+| | |         Merge branch 'load-history' of https://github.com/0xhvy/groupProject3403
+| | | 
+| * | commit fbad4e5a0d3359a53f231cef0a659ceaf2573715 (load-history)
+| | | Author: DominiAetheres <ethandai888@gmail.com>
+| | | Date:   Mon May 15 21:03:33 2023 +0800
+| | | 
+| | |     Added basic history message loading
+| | |   
+* | |   commit b8a03d15b117cbc971241055ee98be2a2828810d
+|\ \ \  Merge: 13578d3 647629d
+| | | | Author: harvey <128307809+0xhvy@users.noreply.github.com>
+| | | | Date:   Wed May 17 20:30:49 2023 +0800
+| | | | 
+| | | |     Merge pull request #33 from 0xhvy/harvey
+| | | |     
+| | | |     Added hamburger on help.html, can view help on devices with small scrÔÇª
+| | | | 
+| * | | commit 647629d4341613d93f8b19323bdb4e3fa6e37f3d (origin/harvey)
+| | | | Author: 0xhvy <q45108713@gmail.com>
+| | | | Date:   Wed May 17 20:30:16 2023 +0800
+| | | | 
+| | | |     Added hamburger on help.html, can view help on devices with small screens. Fixed small minor bugs with rendering.
+| | | | 
+* | | | commit 13578d35b4d9a02cf45b8254f192e243379e780b
+|\| | | Merge: bee33c0 e86f7ca
+| |/ /  Author: harvey <128307809+0xhvy@users.noreply.github.com>
+|/| |   Date:   Wed May 17 15:30:54 2023 +0800
+| | |   
+| | |       Merge pull request #32 from 0xhvy/harvey
+| | |       
+| | |       harvey to main, includes recent changes from harvey branch, read comment for details on those changes.
+| | | 
+| * | commit e86f7ca997b391f0385f6ad75dfa9c4b3eb55370
+| | | Author: 0xhvy <q45108713@gmail.com>
+| | | Date:   Wed May 17 15:29:49 2023 +0800
+| | | 
+| | |     Pushing major changes to platform, including new chat button, error returns and warning messages. Also improved HELP page to increase readbility.
+| | |   
+| * |   commit 13f4c64f9795d33d5095fb8b86fde4367a17b42c
+| |\ \  Merge: f023ec8 bee33c0
+| |/ /  Author: harvey <128307809+0xhvy@users.noreply.github.com>
+|/| |   Date:   Wed May 17 13:37:41 2023 +0800
+| | |   
+| | |       Merge pull request #31 from 0xhvy/main
+| | |       
+| | |       updating my own branch to push
+| | | 
+| | * commit 007e0d1d2eb984e62ec1eaa176ab1f7f8fca6cc9
+| | | Author: joshjo0108 <joshjo0108@gmail.com>
+| | | Date:   Sun May 14 23:56:50 2023 +0800
+| | | 
+| | |     added base.html and modified accordingly
+| | | 
+| | * commit 88c008437ed128b415f9e6298ec291b08332dee0
+| | | Author: joshjo0108 <joshjo0108@gmail.com>
+| | | Date:   Sun May 14 23:12:30 2023 +0800
+| | | 
+| | |     Fixed Dark Mode on and off
+| | |   
+| | *   commit 4143549256488241dc0f51b94e00489ae70f4806
+| | |\  Merge: 37698f0 bee33c0
+| |_|/  Author: joshjo0108 <joshjo0108@gmail.com>
+|/| |   Date:   Sun May 14 23:00:56 2023 +0800
+| | |   
+| | |       Merge branch 'main' of https://github.com/0xhvy/groupProject3403 into test-cases
+| | | 
+* | | commit bee33c07a38880bd96b67eecb0bf105b6d343f7e
+| | | Author: DominiAetheres <ethandai888@gmail.com>
+| | | Date:   Fri May 12 15:31:01 2023 +0800
+| | | 
+| | |     Updated comments
+| | | 
+* | | commit 2f1146c56b15b021bc7dc53c93774007b64f7156
+| | | Author: DominiAetheres <ethandai888@gmail.com>
+| | | Date:   Thu May 11 23:51:01 2023 +0800
+| | | 
+| | |     Partially fixed requirements.txt
+| | |   
+* | |   commit 6dfb64b3f1d759cb4098fb3ed988649c3b750d49
+|\ \ \  Merge: 6972dd2 d31dea7
+| | | | Author: Ethan <109021341+DominiAetheres@users.noreply.github.com>
+| | | | Date:   Thu May 11 23:41:52 2023 +0800
+| | | | 
+| | | |     Merge pull request #29 from 0xhvy/selenium_test
+| | | |     
+| | | |     added selenium tests
+| | | |   
+| * | |   commit d31dea7b63a831a963a9f8cd01d669649a8e0d82 (origin/selenium_test)
+| |\ \ \  Merge: b23f968 6972dd2
+| |/ / /  Author: Ethan <109021341+DominiAetheres@users.noreply.github.com>
+|/| | |   Date:   Thu May 11 23:41:45 2023 +0800
+| | | |   
+| | | |       Merge branch 'main' into selenium_test
+| | | |   
+* | | |   commit 6972dd2b93e0ef8394ed80ef9cc14548e08d9b6b
+|\ \ \ \  Merge: c16a2b1 1d87e02
+| | | | | Author: Ethan <109021341+DominiAetheres@users.noreply.github.com>
+| | | | | Date:   Thu May 11 23:30:55 2023 +0800
+| | | | | 
+| | | | |     Merge pull request #26 from 0xhvy/test-cases
+| | | | |     
+| | | | |     Test cases
+| | | | | 
+| | * | | commit b23f96845b66d9ed68791765ec76fb4b3ffc48e5
+| | | | | Author: Kat3434 <22931707@student.uwa.edu.au>
+| | | | | Date:   Thu May 11 17:02:58 2023 +0800
+| | | | | 
+| | | | |     added to help on how to use keywords
+| | | | | 
+| | * | | commit 2a854d0fbf057ba4caab7e2ed35ba9d05d177b20
+| |/ / /  Author: Kat3434 <22931707@student.uwa.edu.au>
+|/| | |   Date:   Thu May 11 11:31:03 2023 +0800
+| | | |   
+| | | |       added selenium tests
+| | | | 
+| | | * commit 37698f04a7de31eb7a162bde213f3cca64569937
+| | |/  Author: joshjo0108 <joshjo0108@gmail.com>
+| |/|   Date:   Sun May 14 22:36:32 2023 +0800
+| | |   
+| | |       updated more comments
+| | | 
+| * | commit 1d87e02c5c9d869c9ba4044ef1b326d279e510bf
+| | | Author: joshjo0108 <joshjo0108@gmail.com>
+| | | Date:   Thu May 11 22:23:55 2023 +0800
+| | | 
+| | |     Added adequate comments for these .py files
+| | | 
+| * | commit 16b0716990d2b5221931ddc35a935b56d11661e4
+| | | Author: joshjo0108 <joshjo0108@gmail.com>
+| | | Date:   Thu May 11 14:26:31 2023 +0800
+| | | 
+| | |     added function for test and removed chat.html
+| | |   
+| * |   commit 6322247abca7aa2004af117df7ae4d23901248ce
+| |\ \  Merge: c4c4bba c16a2b1
+| |/ /  Author: joshjo0108 <joshjo0108@gmail.com>
+|/| |   Date:   Thu May 11 11:41:13 2023 +0800
+| | |   
+| | |       Merge branch 'main' of https://github.com/0xhvy/groupProject3403 into test-cases
+| | |   
+* | |   commit c16a2b147a32992201ce1821d20eafca86f47f08
+|\ \ \  Merge: f023ec8 632d321
+| |_|/  Author: Ethan <109021341+DominiAetheres@users.noreply.github.com>
+|/| |   Date:   Thu May 11 10:28:32 2023 +0800
+| | |   
+| | |       Merge pull request #28 from 0xhvy/completing-api-calls
+| | |       
+| | |       Adding the variable and range API calls
+| | | 
+| * | commit 632d321a6bd92122db75b70e77cbfd1c18316fe6 (origin/completing-api-calls, completing-api-calls)
+| | | Author: DominiAetheres <ethandai888@gmail.com>
+| | | Date:   Thu May 11 10:26:01 2023 +0800
+| | | 
+| | |     Commented out debug prints
+| | | 
+| * | commit dbce250d121c7398c6c0dc229816d6a383aeee01
+| | | Author: DominiAetheres <ethandai888@gmail.com>
+| | | Date:   Thu May 11 10:23:07 2023 +0800
+| | | 
+| | |     Added user auth requirement for db add
+| | | 
+| * | commit 5540dd637a2fe027a2efa1bb5249dba699f5b6d2
+| | | Author: DominiAetheres <ethandai888@gmail.com>
+| | | Date:   Sun May 7 16:29:07 2023 +0800
+| | | 
+| | |     Added comments for clarity
+| | | 
+| * | commit 4ec301da51c36e4bf7d2b7224280b80b0464b496
+| | | Author: DominiAetheres <ethandai888@gmail.com>
+| | | Date:   Sun May 7 16:13:36 2023 +0800
+| | | 
+| | |     Fixed further error messages, changed input format
+| | | 
+| * | commit 2b860ec6540cfa62ffb0788973a671780295543a
+| | | Author: DominiAetheres <ethandai888@gmail.com>
+| | | Date:   Sun May 7 15:58:14 2023 +0800
+| | | 
+| | |     Fixed error message nesting
+| | | 
+| * | commit a8548855a5937034691875706c585598f9d1372c
+| | | Author: DominiAetheres <ethandai888@gmail.com>
+| | | Date:   Sat May 6 20:48:58 2023 +0800
+| | | 
+| | |     Added ignore for jupyter notebooks for testing
+| | | 
+| * | commit ed030568e9107a2f3e4ea4173441ecf24c949555
+| | | Author: DominiAetheres <ethandai888@gmail.com>
+| | | Date:   Sat May 6 20:48:45 2023 +0800
+| | | 
+| | |     Fixed broken code, date and from todo
+| | | 
+| * | commit 6f7612368195c6affb75c128ba3d1d20194182dd
+| | | Author: DominiAetheres <ethandai888@gmail.com>
+| | | Date:   Thu May 4 12:07:48 2023 +0800
+| | | 
+| | |     Added modifiable keywords api calls
+| | | 
+| * | commit 43d1f14624aea27e6ce25c18ce894849ac077599
+| | | Author: DominiAetheres <ethandai888@gmail.com>
+| | | Date:   Thu May 4 10:20:01 2023 +0800
+| | | 
+| | |     Added query constructors except for variable field
+| | | 
+* | | commit f023ec8cd5c383733fbbbc5d336c0b2a5fd0d1a6
+| | | Author: 0xhvy <q45108713@gmail.com>
+| | | Date:   Thu May 4 12:16:29 2023 +0800
+| | | 
+| | |     Updated files to merge with main
+| | | 
+* | | commit a878d0b12e4e7d4ead93a0a19e2ec899f6a7d2a3
+|/ /  Author: harvey <128307809+0xhvy@users.noreply.github.com>
+| |   Date:   Thu May 4 12:05:41 2023 +0800
+| |   
+| |       Delete chat.html
+| | 
+| * commit c4c4bbacbffa51e2c9913156e65a0be4d8b0a16f
+| | Author: joshjo0108 <joshjo0108@gmail.com>
+| | Date:   Tue May 9 10:49:02 2023 +0800
+| | 
+| |     Added test cases + doc string + examples
+| | 
+| * commit 7244ce78caf89689414e76149c06cc1ac81cc809
+| | Author: joshjo0108 <joshjo0108@gmail.com>
+| | Date:   Sun May 7 00:47:55 2023 +0800
+| | 
+| |     deleted unnecessary libraries import
+| | 
+| * commit cd43c0096960be8f6a06aa4d76d64dd970ef3b9d
+| | Author: joshjo0108 <joshjo0108@gmail.com>
+| | Date:   Sun May 7 00:44:39 2023 +0800
+| | 
+| |     changed the name of parsing testing func
+| | 
+| * commit 6f8bd76aa2a1d4207ee6063648bf778ea78da0ec
+| | Author: joshjo0108 <joshjo0108@gmail.com>
+| | Date:   Sun May 7 00:44:01 2023 +0800
+| | 
+| |     Tested the parsing function
+| | 
+| * commit 1bb6eaad8759699eb693d5ca7062267de44a5b83
+| | Author: joshjo0108 <joshjo0108@gmail.com>
+| | Date:   Sat May 6 23:44:39 2023 +0800
+| | 
+| |     merge origin to test-cases branch
+| | 
+| * commit b1f91164630c850d20553336e9debd3bd889a7c6
+|/  Author: joshjo0108 <joshjo0108@gmail.com>
+|   Date:   Sat May 6 23:40:29 2023 +0800
+|   
+|       Generate Additional Test Cases
+|   
+*   commit 0b4c1d976c13e9ac0441762c1aaf509670210fa4
+|\  Merge: 0d00d33 cfcac4b
+| | Author: Ethan <109021341+DominiAetheres@users.noreply.github.com>
+| | Date:   Wed May 3 19:56:53 2023 +0800
+| | 
+| |     Merge pull request #21 from 0xhvy/api-integration
+| |     
+| |     Api-integration
+| | 
+| * commit cfcac4b3dd6e2762cb02d656f965234472ca89b7 (origin/api-integration)
+| | Author: Ethan <109021341+DominiAetheres@users.noreply.github.com>
+| | Date:   Wed May 3 19:53:45 2023 +0800
+| | 
+| |     Delete app.db
+| | 
+| * commit b4ca2c0956d6053406b8d18991df0bae8b4af083
+| | Author: DominiAetheres <ethandai888@gmail.com>
+| | Date:   Wed May 3 19:48:28 2023 +0800
+| | 
+| |     Ignore .db
+| | 
+| * commit 79e647dd8328e0b73d4d5634c04fa596faedb846
+| | Author: DominiAetheres <ethandai888@gmail.com>
+| | Date:   Wed May 3 19:46:10 2023 +0800
+| | 
+| |     Ignore app.db
+| | 
+| * commit 6c2c2fd3701a36c45e88120e0375627d34a9c990
+| | Author: DominiAetheres <ethandai888@gmail.com>
+| | Date:   Wed May 3 15:23:15 2023 +0800
+| | 
+| |     Added commit between input/response
+| | 
+| * commit d9750e613d3140fa96db3d4af5e2a51e5730463f
+| | Author: DominiAetheres <ethandai888@gmail.com>
+| | Date:   Tue May 2 23:34:26 2023 +0800
+| | 
+| |     Added requests
+| | 
+| * commit 01b12275e8a96adf990ab21618fde06ac0cc3b4b
+| | Author: DominiAetheres <ethandai888@gmail.com>
+| | Date:   Tue May 2 23:32:43 2023 +0800
+| | 
+| |     Added a response that can be caught by JS.
+| | 
+| * commit dc75792b86ca8444dde93f9be4615751c4e5fbc3
+| | Author: DominiAetheres <ethandai888@gmail.com>
+| | Date:   Tue May 2 23:25:02 2023 +0800
+| | 
+| |     Basic response capability, not displayed
+| | 
+| * commit 0f32d29a69a0d61886738e2af4243d5cc6a461df
+| | Author: DominiAetheres <ethandai888@gmail.com>
+| | Date:   Tue May 2 23:03:09 2023 +0800
+| | 
+| |     Implemented basic response in routes
+| | 
+| * commit 105ee4ce429c5fe5bf855111bcd42e6fb53398fc
+| | Author: DominiAetheres <ethandai888@gmail.com>
+| | Date:   Tue May 2 22:31:25 2023 +0800
+| | 
+| |     Added handling for keywords calls
+| | 
+| * commit 10cd78b406efd4c31170e4c7738d8155de108134
+| | Author: DominiAetheres <ethandai888@gmail.com>
+| | Date:   Tue May 2 22:31:10 2023 +0800
+| | 
+| |     Updated json format to no spaces
+| | 
+| * commit 4a509601156b558f8b4847f7510a9c67d229ed1c
+| | Author: DominiAetheres <ethandai888@gmail.com>
+| | Date:   Tue May 2 21:56:16 2023 +0800
+| | 
+| |     Added overview function, option matrix for keyword
+| | 
+| * commit 45e8cd6510e28ba51ce3739e08e70a8bafb03fa4
+| | Author: DominiAetheres <ethandai888@gmail.com>
+| | Date:   Tue May 2 21:05:13 2023 +0800
+| | 
+| |     Added basic (incomplete) parameter generation
+| | 
+| * commit b6d958734dc6f50081d0d2ad3362166601b044e4
+| | Author: DominiAetheres <ethandai888@gmail.com>
+| | Date:   Tue May 2 21:02:06 2023 +0800
+| | 
+| |     Updated keyword json format
+| | 
+| * commit 2b9bb5299421aa19702107dffa7e49b74dcc8d42
+| | Author: DominiAetheres <ethandai888@gmail.com>
+| | Date:   Tue May 2 21:01:48 2023 +0800
+| | 
+| |     Added dotenv to access api key
+| | 
+| * commit ca9a9cb49cff7f07b3b8b8b07fc16f987e62762f
+| | Author: DominiAetheres <ethandai888@gmail.com>
+| | Date:   Thu Apr 27 11:43:38 2023 +0800
+| | 
+| |     Added standard keyword parsing
+| | 
+| * commit d3b0ef6d56096a4de4eb817ff23befec6da9977f
+| | Author: DominiAetheres <ethandai888@gmail.com>
+| | Date:   Wed Apr 26 20:57:42 2023 +0800
+| | 
+| |     Updated db, fixed column restraints
+| | 
+| * commit 38e01c5fce06b67977447429da648400e7faba13
+| | Author: DominiAetheres <ethandai888@gmail.com>
+| | Date:   Wed Apr 26 20:49:20 2023 +0800
+| | 
+| |     Added file for api functions
+| | 
+| * commit e78b38351d657ca083dea7786dc7740130ef77b1
+| | Author: DominiAetheres <ethandai888@gmail.com>
+| | Date:   Wed Apr 26 20:42:43 2023 +0800
+| | 
+| |     Partially updated parsing to reflect new keywords
+| | 
+| * commit 6741901c0b582e3585c03b9d12c8fc155427288c
+| | Author: DominiAetheres <ethandai888@gmail.com>
+| | Date:   Wed Apr 26 20:42:04 2023 +0800
+| | 
+| |     Updated keywords format
+| | 
+* | commit 0d00d3352a406678deb5ec2085f2262adad3f28b
+| | Author: Ethan <109021341+DominiAetheres@users.noreply.github.com>
+| | Date:   Wed May 3 19:56:31 2023 +0800
+| | 
+| |     Delete app.db
+| |   
+* |   commit 85aff412c46715b0ca11c99958e45bf2df5977d2
+|\ \  Merge: 2de591c 5a8a083
+| | | Author: harvey <128307809+0xhvy@users.noreply.github.com>
+| | | Date:   Wed May 3 15:05:20 2023 +0800
+| | | 
+| | |     Merge pull request #17 from 0xhvy/JaeWonJo
+| | |     
+| | |     updated test cases without __init__ in models.py, reviewed.
+| | | 
+| * | commit 5a8a083e16ff97ba9ab12b46867f7b2098851cac
+| | | Author: joshjo0108 <joshjo0108@gmail.com>
+| | | Date:   Thu Apr 27 12:20:44 2023 +0800
+| | | 
+| | |     update on name of the chatbot & alignment & help html file
+| | |   
+| * |   commit c4e7e47593c6e5ee3e7d188abd34fbebd4da75f0
+| |\ \  Merge: 9a6fa37 2de591c
+| |/ /  Author: joshjo0108 <joshjo0108@gmail.com>
+|/| |   Date:   Thu Apr 27 10:20:43 2023 +0800
+| | |   
+| | |       Merge branch 'main' of https://github.com/0xhvy/groupProject3403 into JaeWonJo
+| | | 
+* | | commit 2de591ccee31f6d05c30609b9d0cbd0c9862f53c
+| | | Author: harvey <128307809+0xhvy@users.noreply.github.com>
+| | | Date:   Tue Apr 25 14:27:04 2023 +0800
+| | | 
+| | |     Updating mobile view.
+| | | 
+* | | commit b4bedf4f78050400f5a2d11feadcc6495fce3e83
+| | | Author: harvey <128307809+0xhvy@users.noreply.github.com>
+| | | Date:   Tue Apr 25 14:23:50 2023 +0800
+| | | 
+| | |     Removing hamburger... ­ƒìö
+| | | 
+* | | commit 197e6519af4eecbceb3411376eaee71a467ee8ab
+| | | Author: harvey <128307809+0xhvy@users.noreply.github.com>
+| | | Date:   Tue Apr 25 14:18:09 2023 +0800
+| | | 
+| | |     Update script.js
+| | | 
+* | | commit c212ca74ddfe37af46a9cc6ab94a664ddc99c79b
+| | | Author: harvey <128307809+0xhvy@users.noreply.github.com>
+| | | Date:   Tue Apr 25 14:15:17 2023 +0800
+| | | 
+| | |     Update styles.css
+| | |   
+* | |   commit 5442856eb9438bd6edd0c8cef1af742ea61a112e
+|\ \ \  Merge: 52e154d 107b0b5
+| | | | Author: harvey <128307809+0xhvy@users.noreply.github.com>
+| | | | Date:   Tue Apr 25 14:12:05 2023 +0800
+| | | | 
+| | | |     Pull request from hFlask, merging changes to main for use by others.
+| | | |     
+| | | |     Pushing all changes on hFlask.
+| | | | 
+| * | | commit 107b0b5cac7c526a75a902d0de07b50ef841ae7a
+| | | | Author: 0xhvy <q45108713@gmail.com>
+| | | | Date:   Tue Apr 25 14:08:19 2023 +0800
+| | | | 
+| | | |     Increased usability on mobile, added hamburger menu option for navbar.
+| | | | 
+| * | | commit 26d4f3b8cdac0cb2ef3b9a9362818c3073658ccc
+| | | | Author: 0xhvy <q45108713@gmail.com>
+| | | | Date:   Tue Apr 25 13:52:16 2023 +0800
+| | | | 
+| | | |     Enhance login and registration pages for better usability and easy return to main chat page.
+| | | |   
+| * | |   commit 8af43664d2a23336f13db8b335e0a7dc67ef9cb4
+| |\ \ \  Merge: 4a150e9 52e154d
+| |/ / /  Author: harvey <128307809+0xhvy@users.noreply.github.com>
+|/| | |   Date:   Tue Apr 25 13:02:24 2023 +0800
+| | | |   
+| | | |       Merge pull request #18 from 0xhvy/main
+| | | |       
+| | | |       Pulling main.
+| | | | 
+| | * | commit 9a6fa3766e9846a76fe8a984558e310f374ab008
+| |/ /  Author: joshjo0108 <joshjo0108@gmail.com>
+|/| |   Date:   Sun Apr 23 23:12:57 2023 +0800
+| | |   
+| | |       updated test cases without __init__ in models.py
+| | | 
+* | | commit 52e154d8a80894afc95e5175c4946dddf9257d6b
+| | | Author: DominiAetheres <ethandai888@gmail.com>
+| | | Date:   Sun Apr 23 14:36:52 2023 +0800
+| | | 
+| | |     Added test user back
+| | | 
+* | | commit c727db13aff849590554586cd70f8d59910ba78e
+| |/  Author: DominiAetheres <ethandai888@gmail.com>
+|/|   Date:   Sun Apr 23 14:36:35 2023 +0800
+| |   
+| |       Deleted init for User
+| |   
+* |   commit dc396dd97ed1783cc97db24ef0456a39d8fed2f2
+|\ \  Merge: 05a35c4 4c40ca2
+| | | Author: DominiAetheres <109021341+DominiAetheres@users.noreply.github.com>
+| | | Date:   Sun Apr 23 12:40:26 2023 +0800
+| | | 
+| | |     Merge pull request #16 from 0xhvy/JaeWonJo
+| | |     
+| | |     Jae won jo
+| | | 
+| * | commit 4c40ca292329a7afc30b68358c182dd78e54e5f3
+| | | Author: joshjo0108 <joshjo0108@gmail.com>
+| | | Date:   Sat Apr 22 23:31:06 2023 +0800
+| | | 
+| | |     Used fixture to reuse of the function in test cases
+| | | 
+| * | commit a980c49c40300fba6161bf767f3cacec2a21fa75
+| | | Author: joshjo0108 <joshjo0108@gmail.com>
+| | | Date:   Sat Apr 22 23:30:43 2023 +0800
+| | | 
+| | |     Doesn't need this
+| | | 
+| * | commit 1dedded1df8e5c88581f14328921436eb38138f7
+| | | Author: joshjo0108 <joshjo0108@gmail.com>
+| | | Date:   Sat Apr 22 23:30:30 2023 +0800
+| | | 
+| | |     added __init__ for initiation of User model
+| | | 
+| * | commit c227481dcb951effe80bc0f8d4c9faf59983638a
+| | | Author: joshjo0108 <joshjo0108@gmail.com>
+| | | Date:   Sat Apr 22 23:30:07 2023 +0800
+| | | 
+| | |     added pytest
+| | | 
+| * | commit 07be88cf9871066187f3e89e08dcb719cab62f23
+| | | Author: joshjo0108 <joshjo0108@gmail.com>
+| | | Date:   Sat Apr 22 09:50:59 2023 +0800
+| | | 
+| | |     removed duplicated imports + user scheme
+| | | 
+| * | commit 387ae30711aaee69b055e4ca0f10410e1d0a4506
+| | | Author: joshjo0108 <joshjo0108@gmail.com>
+| | | Date:   Sat Apr 22 09:44:40 2023 +0800
+| | | 
+| | |     no longer need pydantic replaced with WTForms
+| | | 
+| * | commit 34564c0511c0617ebfe6375024e56b530ce12a16
+| | | Author: joshjo0108 <joshjo0108@gmail.com>
+| | | Date:   Sat Apr 22 09:36:21 2023 +0800
+| | | 
+| | |     added pydantic - new version that is working
+| | | 
+| * | commit 8b4c1584db3acdb29628bc3547651b6689b3ce35
+| | | Author: joshjo0108 <joshjo0108@gmail.com>
+| | | Date:   Fri Apr 21 16:19:29 2023 +0800
+| | | 
+| | |     gitignore updated - don't want to update extensions.json to github
+| | | 
+| * | commit dd802a8f28293b5f132f4c51a1cfbcebc4c7507f
+| | | Author: joshjo0108 <joshjo0108@gmail.com>
+| | | Date:   Fri Apr 21 16:16:09 2023 +0800
+| | | 
+| | |     added pydantic in requirements.txt
+| | | 
+| * | commit 330f802605252ed2028ccac4b741536054e2ec89
+| | | Author: joshjo0108 <joshjo0108@gmail.com>
+| | | Date:   Fri Apr 21 15:06:55 2023 +0800
+| | | 
+| | |     Changed the title of the classes
+| | | 
+| * | commit 74fcdff04a1d742ed01e91864d0cdc34497026eb
+| | | Author: joshjo0108 <joshjo0108@gmail.com>
+| | | Date:   Fri Apr 21 11:21:11 2023 +0800
+| | | 
+| | |     initial implementation of test cases for sqlite and json and liveserver test
+| | | 
+| * | commit e2c1751cb4337726d29f2e2b28ed7c46c97327b8
+| | | Author: joshjo0108 <joshjo0108@gmail.com>
+| | | Date:   Fri Apr 21 11:06:35 2023 +0800
+| | | 
+| | |     updated sqlite user table (originally empty)
+| | | 
+| * | commit 709a2ef9001a3d5d04733c92861f5184e00fb795
+| | | Author: joshjo0108 <joshjo0108@gmail.com>
+| | | Date:   Fri Apr 21 10:23:14 2023 +0800
+| | | 
+| | |     added Flask-Testing==0.8.1
+| | | 
+| * | commit 0ba2092f62c668a0ee8bf3faad5de3d90a79d75e
+| | | Author: joshjo0108 <joshjo0108@gmail.com>
+| | | Date:   Thu Apr 20 14:01:45 2023 +0800
+| | | 
+| | |     Generated keywords for each stock and a function for parsing user input
+| | | 
+| * | commit 5e5dc8ced21f310aebdc44109b2831c84722a013
+| | | Author: joshjo0108 <joshjo0108@gmail.com>
+| | | Date:   Wed Apr 19 21:14:18 2023 +0800
+| | | 
+| | |     added JSON Keyword and the use of function
+| | |   
+* | |   commit 05a35c454c6940fa4c44835fe6bb73567b2fd934
+|\ \ \  Merge: 63c4008 a62d67f
+| | | | Author: DominiAetheres <109021341+DominiAetheres@users.noreply.github.com>
+| | | | Date:   Sun Apr 23 12:36:23 2023 +0800
+| | | | 
+| | | |     Merge pull request #11 from 0xhvy/kat1
+| | | |     
+| | | |     Kat1
+| | | | 
+* | | | commit 63c40089b9bfd2924a0465eb0b4b2bac3e92b02f
+| |/ /  Author: joshjo0108 <86064292+joshjo0108@users.noreply.github.com>
+|/| |   Date:   Sat Apr 22 23:38:29 2023 +0800
+| | |   
+| | |       Update Readme.md
+| | |       
+| | |       Added on how to run test cases
+| | |   
+* | |   commit bd70ec303e39bbbf5e413550cf748ae985958fd8
+|\ \ \  Merge: ac5c520 4a150e9
+| | |/  Author: harvey <128307809+0xhvy@users.noreply.github.com>
+| |/|   Date:   Wed Apr 19 15:59:37 2023 +0800
+| | |   
+| | |       Merge pull request #15 from 0xhvy/hFlask
+| | |       
+| | |       Merge pull request #14 from 0xhvy/main
+| | |   
+| * |   commit 4a150e9b682fbad45b40a48b1d1e9dbd4b331984
+| |\ \  Merge: 5eb9f00 ac5c520
+| |/ /  Author: harvey <128307809+0xhvy@users.noreply.github.com>
+|/| |   Date:   Wed Apr 19 15:55:38 2023 +0800
+| | |   
+| | |       Merge pull request #14 from 0xhvy/main
+| | |       
+| | |       Pulling main to branch
+| | |   
+* | |   commit ac5c52020d66e905fdaed13278d2a09029f86943
+|\ \ \  Merge: 50aee5d 5e52a28
+| | | | Author: harvey <128307809+0xhvy@users.noreply.github.com>
+| | | | Date:   Wed Apr 19 15:53:33 2023 +0800
+| | | | 
+| | | |     Merge pull request #10 from 0xhvy/messages-implementation
+| | | |     
+| | | |     Working clientside messaging and message database
+| | | |   
+| * | |   commit 5e52a289b23c2b59c769d38105713794eb6fd196 (origin/messages-implementation)
+| |\ \ \  Merge: 4279bd2 50aee5d
+| |/ / /  Author: harvey <128307809+0xhvy@users.noreply.github.com>
+|/| | |   Date:   Wed Apr 19 15:53:10 2023 +0800
+| | | |   
+| | | |       Merge branch 'main' into messages-implementation
+| | | |   
+* | | |   commit 50aee5dc14602159967dfd4e385a982ddc776bbd
+|\ \ \ \  Merge: 763b92d 5eb9f00
+| | |/ /  Author: harvey <128307809+0xhvy@users.noreply.github.com>
+| |/| |   Date:   Wed Apr 19 15:51:10 2023 +0800
+| | | |   
+| | | |       Merge pull request #13 from 0xhvy/hFlask
+| | | |       
+| | | |       Changing button styling to be consistent across all pages on site.
+| | | | 
+| * | | commit 5eb9f00c6d5b8e181965f306aae90f325e3ec101
+|/ / /  Author: 0xhvy <q45108713@gmail.com>
+| | |   Date:   Wed Apr 19 15:50:11 2023 +0800
+| | |   
+| | |       Changing button styling to be consistent across all pages on site.
+| | | 
+* | | commit 763b92d766af7eef82a147e267b51e9f8f8c1dfb
+| | | Author: 0xhvy <q45108713@gmail.com>
+| | | Date:   Wed Apr 19 15:36:25 2023 +0800
+| | | 
+| | |     styles.css updated to be consistent, across all pages.
+| | | 
+| * | commit 4279bd24d4662d021b1e0391207d78f680f93eca
+| | | Author: DominiAetheres <ethandai888@gmail.com>
+| | | Date:   Fri Apr 14 01:37:43 2023 +0800
+| | | 
+| | |     Added simple query info, fixed typos
+| | | 
+| * | commit d1bd7289216509613a255c8eb017d6de4317f4b9
+| | | Author: DominiAetheres <ethandai888@gmail.com>
+| | | Date:   Fri Apr 14 01:30:55 2023 +0800
+| | | 
+| | |     Message db working, need to add response from api
+| | | 
+| * | commit da43cde078d8a060506ed94c6841cb0c558b2943
+| | | Author: DominiAetheres <ethandai888@gmail.com>
+| | | Date:   Fri Apr 14 00:06:15 2023 +0800
+| | | 
+| | |     Migrated db with message table
+| | | 
+| * | commit b13267196f7f8158e06312d53c17bd19e18f9c91
+| | | Author: DominiAetheres <ethandai888@gmail.com>
+| | | Date:   Fri Apr 14 00:04:52 2023 +0800
+| | | 
+| | |     Added Message model and corresponding form
+| | | 
+| * | commit 67285f04077c73b7c4b0b15c1fac67b579c4c999
+|/ /  Author: DominiAetheres <ethandai888@gmail.com>
+| |   Date:   Thu Apr 13 17:55:33 2023 +0800
+| |   
+| |       Added basic message handling (not complete)
+| |   
+| | * commit 1fb3ccd2470ee35c05b3e006f098c87c8a1e996a (origin/kat)
+| | | Author: Kat <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Tue May 9 21:38:56 2023 +0800
+| | | 
+| | |     Delete migrations directory
+| | | 
+| | * commit e991cec8c0f8dc64ff1d97650fd117a3c322538f
+| | | Author: Kat <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Tue May 9 21:33:54 2023 +0800
+| | | 
+| | |     Delete messages.db
+| | | 
+| | * commit d618f688781fb6a96b2a339ae4bd69fe5f602cb5
+| | | Author: Kat <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Tue May 9 21:33:34 2023 +0800
+| | | 
+| | |     Delete .DS_Store
+| | | 
+| | * commit fef07ed4f7b969042cdec7f628ff99b6e7e4b38e
+| | | Author: Kat <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Tue May 9 21:33:12 2023 +0800
+| | | 
+| | |     Add files via upload
+| | | 
+| | * commit b4d803ace8ccd217d29f98041f32204ed123b4fc
+| | | Author: Kat <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Tue May 9 21:32:39 2023 +0800
+| | | 
+| | |     Delete .DS_Store
+| | | 
+| | * commit c82f896594fce32ed9960823a48ca266d56655a4
+| | | Author: Kat <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Tue May 9 21:32:15 2023 +0800
+| | | 
+| | |     Delete chat.html
+| | | 
+| | * commit 8e21e72ca2f68943614ae620846d9917e84f5f5b
+| | | Author: Kat <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Tue May 9 21:31:54 2023 +0800
+| | | 
+| | |     Delete .DS_Store
+| | | 
+| | * commit 43ef94286bfc5afa200155c52e96a0124a7e0c83
+| | | Author: Kat <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Tue May 9 21:31:27 2023 +0800
+| | | 
+| | |     Delete history_copy.html
+| | | 
+| | * commit 20189e19a4b1a373dc59f9bb4b4161b0e0243da0
+| | | Author: Kat <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Tue May 9 21:30:58 2023 +0800
+| | | 
+| | |     Add files via upload
+| | | 
+| | * commit 1ebddeeb3cfd34bcc8b0e8f5191cdad0c8c5ff46
+| | | Author: Kat <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Tue May 9 21:00:45 2023 +0800
+| | | 
+| | |     Add files via upload
+| | | 
+| | * commit 78fe7f463e7287c7b09a509e788d91d192bf7445
+| | | Author: Kat <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Thu May 4 11:50:04 2023 +0800
+| | | 
+| | |     Add files via upload
+| | | 
+| | * commit 7c403f466838825209dc7ac3aff7405ca6146573
+| | | Author: Ekaterina Kalugina <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Thu Apr 27 11:53:18 2023 +0800
+| | | 
+| | |     Update README.md
+| | | 
+| | * commit bf98e9ea2f13deddb14444f3185f11aaab66a4e5
+| | | Author: Kat3434 <22931707@student.uwa.edu.au>
+| | | Date:   Wed Apr 19 14:45:40 2023 +0800
+| | | 
+| | |     history prototype
+| | | 
+| | * commit 65957864b0139dff1e8c6ada8d196242ad0eb370
+| | | Author: Ekaterina Kalugina <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Mon Apr 17 10:45:12 2023 +0800
+| | | 
+| | |     Update styles.css
+| | | 
+| | * commit a8a4cbfbd89fd6dfdcb5285c30fba204352ff2ff
+| | | Author: Ekaterina Kalugina <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Mon Apr 17 10:32:14 2023 +0800
+| | | 
+| | |     Add files via upload
+| | | 
+| | * commit 5b5c8fb22203544016c1d4b5eab7eb39dd1ed934
+| | | Author: Ekaterina Kalugina <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Mon Apr 17 10:31:47 2023 +0800
+| | | 
+| | |     Rename __init__.py to app/__init__.py
+| | | 
+| | * commit 3b00e3b8c2aaa2fd41096e7394da5f2d50a268e3
+| | | Author: Ekaterina Kalugina <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Mon Apr 17 10:31:31 2023 +0800
+| | | 
+| | |     Add files via upload
+| | | 
+| | * commit 3e963f1abe6fd9898810ebcc408935af84febce4
+| | | Author: Ekaterina Kalugina <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Mon Apr 17 10:29:55 2023 +0800
+| | | 
+| | |     Rename register.html to app/templates/register.html
+| | | 
+| | * commit 7e52542e53d8dbf906939d75296a383ebc566d10
+| | | Author: Ekaterina Kalugina <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Mon Apr 17 10:29:37 2023 +0800
+| | | 
+| | |     Rename login.html to app/templates/login.html
+| | | 
+| | * commit d1d5e9ce87a315d420b6358870bf0df1538645f2
+| | | Author: Ekaterina Kalugina <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Mon Apr 17 10:29:22 2023 +0800
+| | | 
+| | |     Rename index.html to app/templates/index.html
+| | | 
+| | * commit e2372ed1db32dbbbc90da1c5f7a04337526f89b5
+| | | Author: Ekaterina Kalugina <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Mon Apr 17 10:28:52 2023 +0800
+| | | 
+| | |     Rename forms.py to app/forms.py
+| | | 
+| | * commit add82c26ccc5d3129c42c2e1c77f54da0f05c40d
+| | | Author: Ekaterina Kalugina <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Mon Apr 17 10:28:35 2023 +0800
+| | | 
+| | |     Rename models.py to app/models.py
+| | | 
+| | * commit e0ae098e5260027e841e899f69fa54e61fe472f6
+| | | Author: Ekaterina Kalugina <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Mon Apr 17 10:28:12 2023 +0800
+| | | 
+| | |     Rename routes.py to app/routes.py
+| | | 
+| | * commit 6de974a86ff890553aaaa1866294b7972edec5ad
+| | | Author: Ekaterina Kalugina <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Mon Apr 17 10:27:44 2023 +0800
+| | | 
+| | |     Delete styles.css
+| | | 
+| | * commit 945777cd5fb466e73e2faa8f03880b75570394db
+| | | Author: Ekaterina Kalugina <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Mon Apr 17 10:27:37 2023 +0800
+| | | 
+| | |     Delete script.js
+| | | 
+| | * commit 1fe893111d53f9de8dda18a4ee14ec4743f864b3
+| | | Author: Ekaterina Kalugina <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Mon Apr 17 10:27:15 2023 +0800
+| | | 
+| | |     Rename config.py to app/config.py
+| | | 
+| | * commit 21f2e6d111f601a53ec3c083f61386a0d17e7c2c
+| | | Author: Ekaterina Kalugina <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Mon Apr 17 10:26:57 2023 +0800
+| | | 
+| | |     Delete app.db
+| | | 
+| | * commit e54324c6a1b7daf0c7d5b61307ce7c83fdd1a440
+| | | Author: Ekaterina Kalugina <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Mon Apr 17 10:26:30 2023 +0800
+| | | 
+| | |     Delete templates directory
+| | | 
+| | * commit ee3096e9c04bccca3c665c39165997589d595b1a
+| | | Author: Ekaterina Kalugina <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Mon Apr 17 10:26:18 2023 +0800
+| | | 
+| | |     Delete static directory
+| | | 
+| | * commit ecf61d4052f95c16039744b936eadab68f61cb53
+| | | Author: Ekaterina Kalugina <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Mon Apr 17 10:25:39 2023 +0800
+| | | 
+| | |     Add files via upload
+| | | 
+| | * commit a6dce782d0ee1c587385b8d5e58b78f3a4a7ba6b
+| | | Author: Ekaterina Kalugina <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Mon Apr 17 10:24:39 2023 +0800
+| | | 
+| | |     Rename chat.html to app/templates/chat.html
+| | | 
+| | * commit a9974e47f9a968a70dbd2630e4d8eb62452e261d
+| | | Author: Ekaterina Kalugina <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Mon Apr 17 10:19:49 2023 +0800
+| | | 
+| | |     Delete images directory
+| | | 
+| | * commit 9391285839297442a073ab3c6e588bf118189c4e
+| | | Author: Ekaterina Kalugina <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Mon Apr 17 10:19:34 2023 +0800
+| | | 
+| | |     Add files via upload
+| | | 
+| | * commit 2ab1efaffea57ccb15b4ff1ab2f33658195572b4
+| | | Author: Ekaterina Kalugina <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Mon Apr 17 10:19:12 2023 +0800
+| | | 
+| | |     Add files via upload
+| | | 
+| | * commit d14ab968c57431d7bce33b99963b1cec12db5f54
+| | | Author: Ekaterina Kalugina <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Mon Apr 17 10:15:52 2023 +0800
+| | | 
+| | |     Add files via upload
+| | | 
+| | * commit 04aaf76e3273e7df32c88a6df7007072b0c9ff96
+| | | Author: Ekaterina Kalugina <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Mon Apr 17 10:07:38 2023 +0800
+| | | 
+| | |     Add files via upload
+| | | 
+| | * commit b0a4f49a1de6434fe89ddf9be1cfe794935b81fa
+| | | Author: Kat3434 <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Thu Apr 13 13:39:15 2023 +0800
+| | | 
+| | |     Add files via upload
+| | | 
+| | * commit dbfd12a67b262692b15e5be189e4f944771c729d
+| | | Author: Kat3434 <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Fri Apr 7 18:22:05 2023 +0800
+| | | 
+| | |     Add files via upload
+| | | 
+| | * commit 152f32fa02fc696ab3bbf62a090b18373627096b
+| | | Author: Kat3434 <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Fri Apr 7 18:21:35 2023 +0800
+| | | 
+| | |     Add files via upload
+| | | 
+| | * commit 8425523dda6fd51ad1e3238c8957049893001fd5
+| | | Author: Kat3434 <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Fri Apr 7 18:21:11 2023 +0800
+| | | 
+| | |     Add files via upload
+| | |   
+| | | * commit dc63ded64da760328e0f11ce98c276a5bd6f53cc (origin/kat1)
+| | |/  Author: Ekaterina Kalugina <104178362+Kat3434@users.noreply.github.com>
+| |/|   Date:   Thu Apr 27 11:53:00 2023 +0800
+| | |   
+| | |       Update README.md
+| | | 
+| * | commit a62d67f14dd738aa296f0cab9ed70703fb7d0d75
+| | | Author: Ekaterina Kalugina <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Mon Apr 17 10:55:08 2023 +0800
+| | | 
+| | |     Add files via upload
+| | | 
+| * | commit 50fae33acd5ee1155e1915184fddd9c64952f106
+| | | Author: Ekaterina Kalugina <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Mon Apr 17 10:54:46 2023 +0800
+| | | 
+| | |     Update index.html
+| | | 
+| * | commit 82f77fc5f6963a89467de9dca97b08d56ae1470d
+| | | Author: Ekaterina Kalugina <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Mon Apr 17 10:53:43 2023 +0800
+| | | 
+| | |     Update styles.css
+| | | 
+| * | commit 189a0c0589203546baa4c325f01cd658382a5fc2
+| | | Author: Ekaterina Kalugina <104178362+Kat3434@users.noreply.github.com>
+| | | Date:   Mon Apr 17 10:52:18 2023 +0800
+| | | 
+| | |     Add files via upload
+| | | 
+| * | commit 8b7e1fc888f13f869a75aaed5773c76eace13c8a
+|/ /  Author: Ekaterina Kalugina <104178362+Kat3434@users.noreply.github.com>
+| |   Date:   Mon Apr 17 10:51:49 2023 +0800
+| |   
+| |       Update routes.py
+| |   
+* |   commit 18cb1d0d4499f37c900d545fd2db92560a74efda (origin/main-replacement)
+|\ \  Merge: 7759ad3 a2e364a
+| | | Author: DominiAetheres <ethandai888@gmail.com>
+| | | Date:   Thu Mar 30 11:03:55 2023 +0800
+| | | 
+| | |     Merge branch 'main' of https://github.com/0xhvy/groupProject3403
+| | |   
+| * |   commit a2e364a30296b65523e8e01f40327e78eccb816b
+| |\ \  Merge: 3d687dd faab7b8
+| | | | Author: DominiAetheres <109021341+DominiAetheres@users.noreply.github.com>
+| | | | Date:   Thu Mar 30 10:58:28 2023 +0800
+| | | | 
+| | | |     Merge pull request #8 from 0xhvy/main-replacement
+| | | |     
+| | | |     Main replacement
+| | | |   
+| | * |   commit faab7b8cac89357dfa67efa9d6cb1ef44cc4b467
+| | |\ \  Merge: f2b0076 3d687dd
+| | |/ /  Author: DominiAetheres <109021341+DominiAetheres@users.noreply.github.com>
+| |/| |   Date:   Thu Mar 30 10:56:16 2023 +0800
+| | | |   
+| | | |       Merge branch 'main' into main-replacement
+| | | | 
+| * | | commit 3d687dd8cfc6054a4fd97b51348ee16af5797614
+| | | | Author: harvey <128307809+0xhvy@users.noreply.github.com>
+| | | | Date:   Wed Mar 29 16:06:24 2023 +0800
+| | | | 
+| | | |     Update requirements.txt
+| | | | 
+| * | | commit 3dc7fb4e3a8c76e8e9db5f1b9483a361692b27bd
+| | | | Author: harvey <128307809+0xhvy@users.noreply.github.com>
+| | | | Date:   Wed Mar 29 15:54:40 2023 +0800
+| | | | 
+| | | |     Updated requirements.txt to include Mapping
+| | | | 
+| | * | commit f2b0076242c5595f476e8de6ba72449d0bc4a5f5
+| | | | Author: DominiAetheres <ethandai888@gmail.com>
+| | | | Date:   Thu Mar 30 10:52:27 2023 +0800
+| | | | 
+| | | |     Added uuid
+| | | | 
+| | * | commit 7b73bf8e62d9ec074b74cc7d3d174972638a9260
+| | | | Author: DominiAetheres <ethandai888@gmail.com>
+| | | | Date:   Thu Mar 30 10:48:47 2023 +0800
+| | | | 
+| | | |     Added model definition Message - haven't migrated
+| | | | 
+| | * | commit 2ec00c90d7abe56012524ffbac51e78f41b85762
+| | | | Author: DominiAetheres <ethandai888@gmail.com>
+| | | | Date:   Sun Mar 26 14:02:00 2023 +0800
+| | | | 
+| | | |     Added gitignore
+| | | | 
+| | * | commit d92c9898ffd020a0c32a4ddb438aec24143d4cbb
+| | | | Author: DominiAetheres <109021341+DominiAetheres@users.noreply.github.com>
+| | | | Date:   Sat Mar 25 21:53:35 2023 +0800
+| | | | 
+| | | |     Deleted pycache
+| | | | 
+| | * | commit 896237b0cbf5ff21320ddd77114e07b223fb58cf
+| | | | Author: DominiAetheres <109021341+DominiAetheres@users.noreply.github.com>
+| | | | Date:   Sat Mar 25 21:53:19 2023 +0800
+| | | | 
+| | | |     Added registration and log out capabilities
+| | | | 
+| | * | commit 299f81f74f88e77e31916e10ea8eb18bb3902d2b
+| | | | Author: DominiAetheres <109021341+DominiAetheres@users.noreply.github.com>
+| | | | Date:   Sat Mar 25 21:52:24 2023 +0800
+| | | | 
+| | | |     Added dependencies
+| | | | 
+| | * | commit e148d4b2988d8dc2de9e05c230ad4b04f79a6146
+| | | | Author: DominiAetheres <109021341+DominiAetheres@users.noreply.github.com>
+| | | | Date:   Sat Mar 25 20:34:02 2023 +0800
+| | | | 
+| | | |     Working website
+| | | |     
+| | | |     Will commit to main after I finish implementing user registration.
+| | | | 
+| | * | commit 9c71a1454cf55e526800493667178ec5b4221d7a
+| | | | Author: DominiAetheres <109021341+DominiAetheres@users.noreply.github.com>
+| | | | Date:   Sat Mar 25 20:28:39 2023 +0800
+| | | | 
+| | | |     preparing branch for new files
+| | | | 
+| | * | commit e14674f80fbd486d21718c7375a0e4abc548965e
+| | | | Author: DominiAetheres <109021341+DominiAetheres@users.noreply.github.com>
+| | | | Date:   Sat Mar 25 20:28:26 2023 +0800
+| | | | 
+| | | |     preparing branch for new files
+| | | | 
+| | * | commit 205015ef87d1bbdd195ec23cd131d7b024324058
+| | | | Author: DominiAetheres <109021341+DominiAetheres@users.noreply.github.com>
+| | | | Date:   Sat Mar 25 20:28:15 2023 +0800
+| | | | 
+| | | |     preparing branch for new files
+| | | | 
+| | * | commit 2d6ed9a72a4082ffd89366ac7d77ee3e81cccebb
+| |/ /  Author: DominiAetheres <109021341+DominiAetheres@users.noreply.github.com>
+| | |   Date:   Sat Mar 25 20:27:56 2023 +0800
+| | |   
+| | |       preparing branch for new files
+| | |   
+| * |   commit 0f07be8cefdeaf16c21c641ed41f30641cb588a7
+| |\ \  Merge: 3bc97e3 d43dc89
+| | | | Author: joshjo0108 <86064292+joshjo0108@users.noreply.github.com>
+| | | | Date:   Sat Mar 25 17:23:47 2023 +0800
+| | | | 
+| | | |     Merge pull request #7 from 0xhvy/JaeWon6
+| | | |     
+| | | |     Upload requirements.py, .json
+| | | | 
+| | * | commit d43dc8901cbdbe02f6dacc2e1cbd54392981f515
+| |/ /  Author: joshjo0108 <joshjo0108@gmail.com>
+| | |   Date:   Sat Mar 25 17:23:29 2023 +0800
+| | |   
+| | |       Upload requirements.py, .json
+| | |   
+| * |   commit 3bc97e35885824f7042df0adaef071c0c0d82d08
+| |\ \  Merge: e24dc93 aa7e1c8
+| | | | Author: joshjo0108 <86064292+joshjo0108@users.noreply.github.com>
+| | | | Date:   Sat Mar 25 17:10:34 2023 +0800
+| | | | 
+| | | |     Merge pull request #6 from 0xhvy/JaeWon5
+| | | |     
+| | | |     Loaded auth.py
+| | | | 
+| | * | commit aa7e1c898e2491a3d99c3de9942214b410de2c96
+| |/ /  Author: joshjo0108 <joshjo0108@gmail.com>
+| | |   Date:   Sat Mar 25 17:09:46 2023 +0800
+| | |   
+| | |       Loaded auth.py
+| | |   
+| * |   commit e24dc9362a94151162709d7d3dc4b951fa0e0190
+| |\ \  Merge: 07a3d8a 012f666
+| | | | Author: joshjo0108 <86064292+joshjo0108@users.noreply.github.com>
+| | | | Date:   Sat Mar 25 16:53:57 2023 +0800
+| | | | 
+| | | |     Merge pull request #5 from 0xhvy/JaeWon4
+| | | |     
+| | | |     Login / SignUp  / SignOut working - Dark Mode needs to be adjusted laÔÇª
+| | | | 
+| | * | commit 012f666ff26a5f1ccd5410511ca7c275c0446cc3
+| | | | Author: joshjo0108 <joshjo0108@gmail.com>
+| | | | Date:   Sat Mar 25 16:53:12 2023 +0800
+| | | | 
+| | | |     Login / SignUp  / SignOut working - Dark Mode needs to be adjusted later on.
+| | | | 
+| * | | commit 07a3d8ac962c7233d55a4c1e8975dc24ad7ff6b1
+| |\| | Merge: 3d581ff 341375a
+| | | | Author: joshjo0108 <86064292+joshjo0108@users.noreply.github.com>
+| | | | Date:   Sat Mar 25 15:18:59 2023 +0800
+| | | | 
+| | | |     Merge pull request #4 from 0xhvy/JaeWon3
+| | | |     
+| | | |     Updated requirements.txt since it wasn't working. Added Profile page ÔÇª
+| | | | 
+| | * | commit 341375ae6b94d9308b69839a2238ced76b210520
+| | | | Author: joshjo0108 <joshjo0108@gmail.com>
+| | | | Date:   Sat Mar 25 15:18:14 2023 +0800
+| | | | 
+| | | |     Updated requirements.txt since it wasn't working. Added Profile page to the website.
+| | | | 
+| * | | commit 3d581ff22e911eefa7ae83933f1d8849bc2b18d3
+| |\| | Merge: 0b545e3 5fa278f
+| | | | Author: joshjo0108 <86064292+joshjo0108@users.noreply.github.com>
+| | | | Date:   Sat Mar 25 11:56:36 2023 +0800
+| | | | 
+| | | |     Merge pull request #3 from 0xhvy/JaeWon2
+| | | |     
+| | | |     Sign Up, Log In Func Working, Added Database
+| | | | 
+| | * | commit 5fa278fc1ae78ca70cd9afd20e368acbfea44d5c
+| |/ /  Author: joshjo0108 <joshjo0108@gmail.com>
+| | |   Date:   Sat Mar 25 11:52:50 2023 +0800
+| | |   
+| | |       Sign Up, Log In Func Working, Added Database
+| | |   
+| * |   commit 0b545e36e4f4c8894e660d0a04ec91a8bf8f20a2
+| |\ \  Merge: c2de420 f98a27f
+| | | | Author: joshjo0108 <86064292+joshjo0108@users.noreply.github.com>
+| | | | Date:   Sat Mar 25 11:05:29 2023 +0800
+| | | | 
+| | | |     Merge pull request #2 from 0xhvy/JaeWon
+| | | |     
+| | | |     Added base.html, login.html, models.py initially
+| | | | 
+| | * | commit f98a27f08e9c537c4deb0b92c94c44f5760218d5
+| |/ /  Author: joshjo0108 <joshjo0108@gmail.com>
+| | |   Date:   Sat Mar 25 11:03:38 2023 +0800
+| | |   
+| | |       Added base.html, login.html, models.py initially
+| | |   
+| * |   commit c2de420b009231ae29d61658dd208bd0a6818a10
+| |\ \  Merge: 37eba37 6bca6ad
+| | | | Author: joshjo0108 <joshjo0108@gmail.com>
+| | | | Date:   Thu Mar 23 12:50:17 2023 +0800
+| | | | 
+| | | |     Merge branch 'main' of https://github.com/0xhvy/groupProject3403
+| | | | 
+| * | | commit 37eba37fa27e60e2600f1fcd0a3f52325d009432
+| | | | Author: joshjo0108 <joshjo0108@gmail.com>
+| | | | Date:   Thu Mar 23 12:50:14 2023 +0800
+| | | | 
+| | | |     Removed .DS_Store
+| | | | 
+* | | | commit 7759ad3fbf11754f39ea662acce20f133200f604
+| |/ /  Author: DominiAetheres <ethandai888@gmail.com>
+|/| |   Date:   Thu Mar 30 11:02:31 2023 +0800
+| | |   
+| | |       Amended requirements
+| | | 
+* | | commit 6bca6ad67c2b044baf5746e3b3fba7bb1a3d0419
+| | | Author: DominiAetheres <109021341+DominiAetheres@users.noreply.github.com>
+| | | Date:   Thu Mar 23 12:48:37 2023 +0800
+| | | 
+| | |     Cleaning the repo
+| | | 
+* | | commit 94bea47e6929dc7ae31eb3dd8d5cfab648f7a6f5
+|/ /  Author: DominiAetheres <109021341+DominiAetheres@users.noreply.github.com>
+| |   Date:   Thu Mar 23 12:48:18 2023 +0800
+| |   
+| |       Cleaning repo
+| | 
+* | commit 79fc8db729f148cbffffdb6244bd0c497d8a695b
+| | Author: joshjo0108 <joshjo0108@gmail.com>
+| | Date:   Thu Mar 23 12:46:36 2023 +0800
+| | 
+| |     Added Login Files
+| | 
+* | commit 1f662f793381501bedffaa15f8d767a26d084a7b
+| | Author: DominiAetheres <109021341+DominiAetheres@users.noreply.github.com>
+| | Date:   Thu Mar 23 12:23:46 2023 +0800
+| | 
+| |     Added README
+| | 
+* | commit eba1fdfcf2347d6f57c47518832d1ea86ccf56cb
+| | Author: DominiAetheres <109021341+DominiAetheres@users.noreply.github.com>
+| | Date:   Thu Mar 23 12:12:42 2023 +0800
+| | 
+| |     pip install -r requirements.txt
+| | 
+* | commit c53c84d5c00b1d1f40cfe8d6d0ed3c89f16b0c49
+| | Author: DominiAetheres <109021341+DominiAetheres@users.noreply.github.com>
+| | Date:   Thu Mar 23 12:01:24 2023 +0800
+| | 
+| |     Deleted legacy directory - no longer in use
+| | 
+* | commit 890cfa6a5dd78d4434bea74a600c58e79f9cfb42
+| | Author: DominiAetheres <109021341+DominiAetheres@users.noreply.github.com>
+| | Date:   Thu Mar 23 12:01:07 2023 +0800
+| | 
+| |     Deleted legacy file - no longer in use
+| | 
+* | commit afb11c8ca9bd42e1b7aa77d932d58e17cc0422d6
+| | Author: DominiAetheres <109021341+DominiAetheres@users.noreply.github.com>
+| | Date:   Thu Mar 23 12:00:55 2023 +0800
+| | 
+| |     Deleted legacy file - no longer in use
+| | 
+* | commit aff56219719ce6d7b202f5f30deef44741835ce8
+| | Author: DominiAetheres <109021341+DominiAetheres@users.noreply.github.com>
+| | Date:   Thu Mar 23 12:00:34 2023 +0800
+| | 
+| |     Deleted legacy file - no longer in use
+| | 
+* | commit 286fd6d5a2ec7baebbb86e8403b5d414264e2adf
+| | Author: DominiAetheres <109021341+DominiAetheres@users.noreply.github.com>
+| | Date:   Thu Mar 23 11:59:10 2023 +0800
+| | 
+| |     Added the flask file structure
+| |     
+| |     Reorganised the file structure to work with Flask, html should now be placed in "/app/templates/" and static elements like javascript, css and images should be placed in their respective folders in "/app/static".
+| | 
+* | commit 17e88aa9ddeb30ead53bcaadb9baafed71757dea
+| | Author: harvey <128307809+0xhvy@users.noreply.github.com>
+| | Date:   Thu Mar 23 11:12:07 2023 +0800
+| | 
+| |     Reverted fonts.
+| | 
+* | commit 6f5d11345ad703636db4407e14d8db80b2b44de5
+|/  Author: harvey <128307809+0xhvy@users.noreply.github.com>
+|   Date:   Thu Mar 23 11:01:02 2023 +0800
+|   
+|       Added variable for fonts, easily change from :root within styles.css
+| 
+* commit af3ea197cc10d9ec33a1800678924739d0b73582
+| Author: harvey <128307809+0xhvy@users.noreply.github.com>
+| Date:   Thu Mar 23 10:38:57 2023 +0800
+| 
+|     Changing font on button to be consistent with site.
+| 
+* commit 5e630d1d28a64d888804fb2af21fe0fbb53e0b0a
+| Author: harvey <128307809+0xhvy@users.noreply.github.com>
+| Date:   Wed Mar 22 15:46:27 2023 +0800
+| 
+|     Reordering script.js functions.
+| 
+* commit 1dab5991083c620a81f08d11310bfa247952f01e
+| Author: harvey <128307809+0xhvy@users.noreply.github.com>
+| Date:   Wed Mar 22 15:00:10 2023 +0800
+| 
+|     Navigation bar links to chat containers, points to index.html
+| 
+* commit 1c863d2a88cb17bbfc5438de0c943c6b4d4cb39f
+| Author: harvey <128307809+0xhvy@users.noreply.github.com>
+| Date:   Wed Mar 22 14:53:34 2023 +0800
+| 
+|     Delete file
+| 
+* commit 0ba8f6ec579d56e7048db9c3153ca4953e710137
+| Author: harvey <128307809+0xhvy@users.noreply.github.com>
+| Date:   Wed Mar 22 14:51:50 2023 +0800
+| 
+|     Adding favicon to HTML.
+| 
+* commit 2f9cd64f79eb6ea8b5c57df1721b657fed7b1685
+| Author: harvey <128307809+0xhvy@users.noreply.github.com>
+| Date:   Wed Mar 22 14:51:23 2023 +0800
+| 
+|     Uploading favicon
+| 
+* commit 4de437a1d01276330e1dd4194eb318873638fc94
+| Author: harvey <128307809+0xhvy@users.noreply.github.com>
+| Date:   Wed Mar 22 14:51:08 2023 +0800
+| 
+|     Recreating folder for images.
+| 
+* commit bccbc2bba31e7496c3a4e2574ae11ef11b4bd25a
+| Author: harvey <128307809+0xhvy@users.noreply.github.com>
+| Date:   Wed Mar 22 14:50:24 2023 +0800
+| 
+|     Delete images.txt
+| 
+* commit 44197d2e32763c8f92d3465b37d260748c5a5b09
+| Author: harvey <128307809+0xhvy@users.noreply.github.com>
+| Date:   Wed Mar 22 14:50:13 2023 +0800
+| 
+|     Creating new folder for images
+| 
+* commit 8e664c2c3f5152545e21c46415f7e84a4faf01cf
+  Author: hvy <128307809+0xhvy@users.noreply.github.com>
+  Date:   Wed Mar 22 14:14:17 2023 +0800
+  
+      Uploading files for a basic layout
+      
+      Includes basic functionalities, that include: Dark-mode, I/O, Navbar.

@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Help
+{% endblock %}
+
+{% block content %}
+    <div class="help-container">
+      <h1>HELP</h1>
+      <section>
+        <h2>Getting Started</h2>
+        <p>
+          To get started with the StockBot application, you first need to create
+          an account. You can do this by clicking on the "Register" link in the
+          navigation bar and filling out the registration form. Once you've
+          created an account, you can log in and start using the StockBot.
+        </p>
+      </section>
+      <section>
+        <h2>Using the StockBot</h2>
+        <p>
+          The StockBot is designed to simulate conversation with human users. To
+          use the StockBot, simply click on the "Home" link in the navigation
+          bar. You will be taken to a page where you can type your questions and
+          receive answers in a conversational manner.
+        </p>
+        <p>
+          To get information on a particular share, type the keyword "<span
+            class="keyword"
+            >info</span
+          >" followed by a colon and the name of the share. For example, to get
+          information on Apple Inc., type "info:aapl". The available keywords
+          for information include "<span class="keyword">dividendyield</span>",
+          "<span class="keyword">dividendpershare</span>", "<span
+            class="keyword"
+            >eps</span
+          >", "<span class="keyword">peratio</span>", and "<span class="keyword"
+            >profitmargin</span
+          >". Simply replace "info" with any of these keywords to get the
+          corresponding information on the share you are interested in.
+        </p>
+        <p>
+          Alternatively to get a general overview of some stocks, the keyword
+          "<span class="keyword">overview</span>" could be used to return a
+          description of the stock, and some of its important statistics such 
+          as its current price or price-earnings ratio. It could be used to
+          compare companies in a similar industry like
+          "overview:ibm,msft,aapl".
+        </p>
+        <p>
+          To get the price of a share, type the keyword "<span class="keyword"
+            >price</span
+          >" followed by a comma and a time frame. The time frame can be either
+          a word from "<span class="keyword">current, yesterday</span>",
+          or "<span class="keyword">last week, last month, last year</span>".
+          For example, to get the current price of Apple Inc.'s share, type
+          "price,current:aapl". This will give you the current price of the
+          share. Similarly, to get the price of the share from last week, type
+          "price,lastweek:aapl".
+        </p>
+      </section>
+      <section>
+        <h2>Viewing Your Conversation History</h2>
+        <p>
+          If you're logged in, you can view your StockBot conversation history
+          by clicking on the "History" link in the navigation bar. This will
+          take you to a page where you can see all your previous conversations
+          with the StockBot. You can also perform a search within your StockBot
+          history to retrieve specific information or conversations.
+        </p>
+      </section>
+      <section>
+        <h2>Logging Out</h2>
+        <p>
+          To log out of the StockBot application, simply click on the "Logout"
+          link in the navigation bar.
+        </p>
+      </section>
+    </div>
+{% endblock %}

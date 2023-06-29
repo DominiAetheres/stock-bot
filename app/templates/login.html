@@ -1,0 +1,32 @@
+{% extends "base.html" %} {% block title %} Register {% endblock %} {% block
+content %}
+<div class="column is-4 is-offset-4">
+  <div class="box">
+    <div class="login-box">
+      <div class="login-header">
+        <h3 class="title inline">Login</h3>
+        <a href="{{ url_for('index') }}" class="close-btn inline">&times;</a>
+      </div>
+      {% with messages = get_flashed_messages() %} {% if messages %}
+      <div class="notification is-danger">
+        {{ messages[0] }}
+      </div>
+      {% endif %} {% endwith %}
+      <form method="post" novalidate>
+        {{ form.hidden_tag() }}
+        <p>
+          {{ form.username.label }}<br>
+          {{ form.username(size=32) }}
+        </p>
+        <p>
+          {{ form.password.label }}<br>
+          {{ form.password(size=32) }}
+        </p>
+        <div class="form-footer">
+          <p>{{ form.submit(class_="sub-button") }}</p>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

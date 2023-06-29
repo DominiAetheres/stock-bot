@@ -1,0 +1,37 @@
+{% extends "base.html" %} {% block title %} StockBot {% endblock %} {% block
+popup%}
+<div id="overlay" class="overlay" style="display: none">
+  <div class="overlay-content">
+    <h2>Welcome to StockBot 🤖</h2>
+    <p>
+      The app is a user-friendly chatbot platform offering quick, easy answers
+      to users' questions. Users can create accounts, chat with the bot, and
+      view conversation history. The chatbot simulates human conversation,
+      covering various topics. Logged-in users can access and search their chat
+      history.
+    </p>
+    <p>
+      The intuitive interface ensures a personalized and engaging experience for
+      all users, regardless of technical expertise. The app's main objective is
+      to provide a convenient and efficient solution for information and support
+      needs.
+    </p>
+    <label>
+      <input type="checkbox" id="dontShowAgainCheckbox">
+      Don't show again
+    </label>
+    <button id="acknowledgeButton" class="overlay-button">Acknowledge</button>
+  </div>
+</div>
+{% endblock %} {% block content %}
+<div class="chat-container">
+  <div class="chat-window">
+    <div class="messages"></div>
+    <button id="new-chat-button" onclick="refreshPage()">+</button>
+  </div>
+  <form class="input-form">
+    <input type="text" class="input" placeholder="Type your message here...">
+    <button type="submit">Send</button>
+  </form>
+</div>
+{% endblock %}

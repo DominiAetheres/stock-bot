@@ -1,0 +1,49 @@
+{% extends "base.html" %} {% block title %} History {% endblock %} {% block
+content %}
+<div id="conversation">
+  {% for sTimestamp, sent, rTimestamp, response in messages %}
+  <div class="sent-message">{{ sTimestamp }} {{ sent }}</div>
+  <div class="message">{{ rTimestamp }} {{ response }}</div>
+  {% endfor %}
+</div>
+<div id="search-bar">
+  <input type="text" placeholder="Search...">
+  <div id="search-results"></div>
+</div>
+
+<script>
+  const searchInput = document.querySelector("#search-bar input");
+  const searchResults = document.querySelector("#search-results");
+
+  searchInput.addEventListener("input", () => {
+    const searchQuery = searchInput.value.toLowerCase();
+    const messages = document.querySelectorAll(".message");
+
+    // Remove previously appended search results
+    const searchResultItems = document.querySelectorAll(".search-result");
+    searchResultItems.forEach((resultItem) => resultItem.remove());
+
+    const addedMessages = new Set(); // To keep track of messages that have already been added
+
+    messages.forEach((message) => {
+      const messageText = message.textContent.toLowerCase();
+      if (
+        messageText.includes(searchQuery) &&
+        !addedMessages.has(messageText)
+      ) {
+        const messageClone = message.cloneNode(true);
+        messageClone.classList.add("search-result");
+        // Highlight the found text in the message
+        const highlightedText = messageClone.innerHTML.replace(
+          new RegExp(`(${searchQuery})`, "ig"),
+          '<span class="highlight">$1</span>'
+        );
+        messageClone.innerHTML = highlightedText;
+        searchResults.appendChild(messageClone);
+        addedMessages.add(messageText);
+      }
+    });
+  });
+</script>
+
+{% endblock %}

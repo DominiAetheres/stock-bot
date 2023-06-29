@@ -1,0 +1,9 @@
+{
+    "keywords": ["info", "dividendyield", "dividendpershare", "eps", "peratio", "profitmargin"],
+
+    "modifiableKeywords": ["price"],
+
+    "timeSelector": ["current", "yesterday"],
+
+    "rangeSelector": ["lastweek", "lastmonth", "lastyear"]
+}
